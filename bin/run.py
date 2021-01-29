@@ -180,6 +180,8 @@ def importCustom(custom_json):
         return custom_entities
 
 def exportMarkdown(title,custom,entities):
+    mdf = MdUtils(file_name='README',title=title)
+
     ### BEGIN REMOVE THIS SECTION BEFORE GENERAL USE ###   
     mdf.new_header(level=1, title='DO NOT USE THIS REPOSITORY IN PRODUCTION')
     mdf.new_paragraph(
@@ -191,8 +193,6 @@ def exportMarkdown(title,custom,entities):
         "reflective of the organization in which it was to be used. "
     )
     ### END REMOVE THIS SECTION BEFORE GENERAL USE ###   
-    mdf = MdUtils(file_name='README',title=title)
-
 
     # Create the Overview Section
     mdf.new_header(level=1, title='Overview')
