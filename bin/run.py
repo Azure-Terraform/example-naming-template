@@ -180,17 +180,19 @@ def importCustom(custom_json):
         return custom_entities
 
 def exportMarkdown(title,custom,entities):
-    mdf = MdUtils(file_name='README',title=title)
-
     ### BEGIN REMOVE THIS SECTION BEFORE GENERAL USE ###   
-    mdf.new_header(level=1, title='DO NOT USE THIS REPOSITORY')
+    mdf.new_header(level=1, title='DO NOT USE THIS REPOSITORY IN PRODUCTION')
     mdf.new_paragraph(
-        "It exsists here to be used in example code within the Azure-Terraform org. "
-        "This repository can be used as a template to create a private repository "
+        "It is used in example code within the Azure-Terraform module codebase. "
+    )
+    mdf.new_line(
+        "* This repository can be used as a template to create a private repository "
         "which would contain proprietary data within the custom.json file "
         "reflective of the organization in which it was to be used. "
     )
     ### END REMOVE THIS SECTION BEFORE GENERAL USE ###   
+    mdf = MdUtils(file_name='README',title=title)
+
 
     # Create the Overview Section
     mdf.new_header(level=1, title='Overview')
