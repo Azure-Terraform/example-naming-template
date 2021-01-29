@@ -214,7 +214,7 @@
       "rule": "az",
       "allowed_values": {
          "contosoweb": "Contoso Web",
-         "contosoapi": "Contoso API",
+         "contosoapi": "Contoso API"
       }
    }
 }
