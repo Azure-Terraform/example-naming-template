@@ -2,10 +2,11 @@
 Custom Naming Conventions for Azure
 ===================================
 
-# DO NOT USE THIS REPOSITORY
+# DO NOT USE THIS REPOSITORY IN PRODUCTION
 
 
-It exsists here to be used in example code within the Azure-Terraform org. This repository can be used as a template to create a private repository which would contain proprietary data within the custom.json file reflective of the organization in which it was to be used. 
+It is used in example code within the Azure-Terraform module codebase.   
+* This repository can be used as a template to create a private repository which would contain proprietary data within the custom.json file reflective of the organization in which it was to be used. 
 # Overview
 
 
