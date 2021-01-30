@@ -106,6 +106,7 @@ Custom entities are variables and allowed values that describe our business and 
 
 |<sub>Full Text</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Value</sub>|
 | ------ | ------ | ------ | ------ |
+|<sub>Sandbox</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>sandbox</sub>|
 |<sub>Development</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>dev</sub>|
 |<sub>Quality Assurance</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>qa</sub>|
 |<sub>User Acceptance Testing</sub>|<sub>global</sub>|<sub>az[7]</sub>|<sub>uat</sub>|
