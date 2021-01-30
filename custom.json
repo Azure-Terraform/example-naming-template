@@ -35,6 +35,7 @@
       "maxlength": "7",
       "rule": "az",
       "allowed_values": {
+         "sandbox": "Sandbox",
          "dev": "Development",
          "qa": "Quality Assurance",
          "uat": "User Acceptance Testing",
