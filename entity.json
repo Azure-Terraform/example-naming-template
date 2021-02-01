@@ -1,0 +1,3172 @@
+{
+    "servers": [
+        {
+            "category": "AnalysisServices",
+            "entity": "servers",
+            "scope": "resource group",
+            "maxlength": "63",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "DBforMariaDB",
+            "entity": "servers",
+            "scope": "global",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "<custom.productName>-<custom.environment>-mariadb##",
+            "example": "contosoweb-prod-mariadb01"
+        },
+        {
+            "category": "DBforMySQL",
+            "entity": "servers",
+            "scope": "global",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "<custom.productName>-<custom.environment>-mysql##",
+            "example": "contosoweb-prod-mysql01"
+        },
+        {
+            "category": "DBforPostgreSQL",
+            "entity": "servers",
+            "scope": "global",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "<custom.productName>-<custom.environment>##",
+            "example": "contosoweb-prod01"
+        },
+        {
+            "category": "Sql",
+            "entity": "servers",
+            "scope": "global",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service": [
+        {
+            "category": "ApiManagement",
+            "entity": "service",
+            "scope": "global",
+            "maxlength": "50",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/apis": [
+        {
+            "category": "ApiManagement",
+            "entity": "apis",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/apis/issues": [
+        {
+            "category": "ApiManagement",
+            "entity": "issues",
+            "scope": "api",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/apis/issues/attachments": [
+        {
+            "category": "ApiManagement",
+            "entity": "attachments",
+            "scope": "issue",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/apis/issues/comments": [
+        {
+            "category": "ApiManagement",
+            "entity": "comments",
+            "scope": "issue",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/apis/operations": [
+        {
+            "category": "ApiManagement",
+            "entity": "operations",
+            "scope": "api",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/apis/operations/tags": [
+        {
+            "category": "ApiManagement",
+            "entity": "tags",
+            "scope": "operation",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/apis/releases": [
+        {
+            "category": "ApiManagement",
+            "entity": "releases",
+            "scope": "api",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/apis/schemas": [
+        {
+            "category": "ApiManagement",
+            "entity": "schemas",
+            "scope": "api",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/apis/tagDescriptions": [
+        {
+            "category": "ApiManagement",
+            "entity": "tagDescriptions",
+            "scope": "api",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/apis/tags": [
+        {
+            "category": "ApiManagement",
+            "entity": "tags",
+            "scope": "api",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/api-version-sets": [
+        {
+            "category": "ApiManagement",
+            "entity": "api-version-sets",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/authorizationServers": [
+        {
+            "category": "ApiManagement",
+            "entity": "authorizationServers",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/backends": [
+        {
+            "category": "ApiManagement",
+            "entity": "backends",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/certificates": [
+        {
+            "category": "ApiManagement",
+            "entity": "certificates",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/diagnostics": [
+        {
+            "category": "ApiManagement",
+            "entity": "diagnostics",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/groups": [
+        {
+            "category": "ApiManagement",
+            "entity": "groups",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/groups/users": [
+        {
+            "category": "ApiManagement",
+            "entity": "users",
+            "scope": "group",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/identityProviders": [
+        {
+            "category": "ApiManagement",
+            "entity": "identityProviders",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/loggers": [
+        {
+            "category": "ApiManagement",
+            "entity": "loggers",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/notifications": [
+        {
+            "category": "ApiManagement",
+            "entity": "notifications",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/notifications/recipientEmails": [
+        {
+            "category": "ApiManagement",
+            "entity": "recipientEmails",
+            "scope": "notification",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/openidConnectProviders": [
+        {
+            "category": "ApiManagement",
+            "entity": "openidConnectProviders",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/policies": [
+        {
+            "category": "ApiManagement",
+            "entity": "policies",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/products": [
+        {
+            "category": "ApiManagement",
+            "entity": "products",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/products/apis": [
+        {
+            "category": "ApiManagement",
+            "entity": "apis",
+            "scope": "product",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/products/groups": [
+        {
+            "category": "ApiManagement",
+            "entity": "groups",
+            "scope": "product",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/products/tags": [
+        {
+            "category": "ApiManagement",
+            "entity": "tags",
+            "scope": "product",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/properties": [
+        {
+            "category": "ApiManagement",
+            "entity": "properties",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/subscriptions": [
+        {
+            "category": "ApiManagement",
+            "entity": "subscriptions",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/tags": [
+        {
+            "category": "ApiManagement",
+            "entity": "tags",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/templates": [
+        {
+            "category": "ApiManagement",
+            "entity": "templates",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "service/users": [
+        {
+            "category": "ApiManagement",
+            "entity": "users",
+            "scope": "service",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "configurationStores": [
+        {
+            "category": "AppConfiguration",
+            "entity": "configurationStores",
+            "scope": "resource group",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "locks": [
+        {
+            "category": "Authorization",
+            "entity": "locks",
+            "scope": "scope of assignment",
+            "maxlength": "90",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "policyAssignments": [
+        {
+            "category": "Authorization",
+            "entity": "policyAssignments",
+            "scope": "scope of assignment",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "policyDefinitions": [
+        {
+            "category": "Authorization",
+            "entity": "policyDefinitions",
+            "scope": "scope of definition",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "policySetDefinitions": [
+        {
+            "category": "Authorization",
+            "entity": "policySetDefinitions",
+            "scope": "scope of definition",
+            "maxlength": "255",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "automationAccounts": [
+        {
+            "category": "Automation",
+            "entity": "automationAccounts",
+            "scope": "resource group",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "automationAccounts/certificates": [
+        {
+            "category": "Automation",
+            "entity": "certificates",
+            "scope": "automation account",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "automationAccounts/connections": [
+        {
+            "category": "Automation",
+            "entity": "connections",
+            "scope": "automation account",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "automationAccounts/credentials": [
+        {
+            "category": "Automation",
+            "entity": "credentials",
+            "scope": "automation account",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "automationAccounts/runbooks": [
+        {
+            "category": "Automation",
+            "entity": "runbooks",
+            "scope": "automation account",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "automationAccounts/schedules": [
+        {
+            "category": "Automation",
+            "entity": "schedules",
+            "scope": "automation account",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "automationAccounts/variables": [
+        {
+            "category": "Automation",
+            "entity": "variables",
+            "scope": "automation account",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "automationAccounts/watchers": [
+        {
+            "category": "Automation",
+            "entity": "watchers",
+            "scope": "automation account",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "automationAccounts/webhooks": [
+        {
+            "category": "Automation",
+            "entity": "webhooks",
+            "scope": "automation account",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "batchAccounts": [
+        {
+            "category": "Batch",
+            "entity": "batchAccounts",
+            "scope": "Region",
+            "maxlength": "24",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "batchAccounts/applications": [
+        {
+            "category": "Batch",
+            "entity": "applications",
+            "scope": "batch account",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "batchAccounts/certificates": [
+        {
+            "category": "Batch",
+            "entity": "certificates",
+            "scope": "batch account",
+            "maxlength": "45",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "batchAccounts/pools": [
+        {
+            "category": "Batch",
+            "entity": "pools",
+            "scope": "batch account",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "blockchainMembers": [
+        {
+            "category": "Blockchain",
+            "entity": "blockchainMembers",
+            "scope": "global",
+            "maxlength": "20",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "botServices": [
+        {
+            "category": "BotService",
+            "entity": "botServices",
+            "scope": "global",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "botServices/channels": [
+        {
+            "category": "BotService",
+            "entity": "channels",
+            "scope": "bot service",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "botServices/Connections": [
+        {
+            "category": "BotService",
+            "entity": "Connections",
+            "scope": "bot service",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "enterpriseChannels": [
+        {
+            "category": "BotService",
+            "entity": "enterpriseChannels",
+            "scope": "resource group",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "Redis": [
+        {
+            "category": "Cache",
+            "entity": "Redis",
+            "scope": "global",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "Redis/firewallRules": [
+        {
+            "category": "Cache",
+            "entity": "firewallRules",
+            "scope": "Redis",
+            "maxlength": "256",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "profiles": [
+        {
+            "category": "Cdn",
+            "entity": "profiles",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "profiles/endpoints": [
+        {
+            "category": "Cdn",
+            "entity": "endpoints",
+            "scope": "global",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "certificateOrders": [
+        {
+            "category": "CertificateRegistration",
+            "entity": "certificateOrders",
+            "scope": "resource group",
+            "maxlength": "30",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "accounts": [
+        {
+            "category": "CognitiveServices",
+            "entity": "accounts",
+            "scope": "resource group",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "DataLakeAnalytics",
+            "entity": "accounts",
+            "scope": "global",
+            "maxlength": "24",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "DataLakeStore",
+            "entity": "accounts",
+            "scope": "global",
+            "maxlength": "24",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "Maps",
+            "entity": "accounts",
+            "scope": "resource group",
+            "maxlength": "98",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "availabilitySets": [
+        {
+            "category": "Compute",
+            "entity": "availabilitySets",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "diskEncryptionSets": [
+        {
+            "category": "Compute",
+            "entity": "diskEncryptionSets",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "disks": [
+        {
+            "category": "Compute",
+            "entity": "disks",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "galleries": [
+        {
+            "category": "Compute",
+            "entity": "galleries",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "galleries/applications": [
+        {
+            "category": "Compute",
+            "entity": "applications",
+            "scope": "gallery",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "galleries/applications/versions": [
+        {
+            "category": "Compute",
+            "entity": "versions",
+            "scope": "application",
+            "maxlength": "64",
+            "rule": "0.9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "galleries/images": [
+        {
+            "category": "Compute",
+            "entity": "images",
+            "scope": "gallery",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "galleries/images/versions": [
+        {
+            "category": "Compute",
+            "entity": "versions",
+            "scope": "image",
+            "maxlength": "64",
+            "rule": "0.9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "images": [
+        {
+            "category": "Compute",
+            "entity": "images",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "snapshots": [
+        {
+            "category": "Compute",
+            "entity": "snapshots",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "virtualMachines": [
+        {
+            "category": "Compute",
+            "entity": "virtualMachines",
+            "scope": "resource group",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "<custom.productName>-<custom.serviceName>-<custom.applicationName>##",
+            "example": "contosoweb-mono-docker01"
+        }
+    ],
+    "virtualMachineScaleSets": [
+        {
+            "category": "Compute",
+            "entity": "virtualMachineScaleSets",
+            "scope": "resource group",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "containerGroups": [
+        {
+            "category": "ContainerInstance",
+            "entity": "containerGroups",
+            "scope": "resource group",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "registries": [
+        {
+            "category": "ContainerRegistry",
+            "entity": "registries",
+            "scope": "global",
+            "maxlength": "50",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "registries/buildTasks": [
+        {
+            "category": "ContainerRegistry",
+            "entity": "buildTasks",
+            "scope": "registry",
+            "maxlength": "50",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "registries/buildTasks/steps": [
+        {
+            "category": "ContainerRegistry",
+            "entity": "steps",
+            "scope": "build task",
+            "maxlength": "50",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "registries/replications": [
+        {
+            "category": "ContainerRegistry",
+            "entity": "replications",
+            "scope": "registry",
+            "maxlength": "50",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "registries/scopeMaps": [
+        {
+            "category": "ContainerRegistry",
+            "entity": "scopeMaps",
+            "scope": "registry",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "registries/tasks": [
+        {
+            "category": "ContainerRegistry",
+            "entity": "tasks",
+            "scope": "registry",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "registries/tokens": [
+        {
+            "category": "ContainerRegistry",
+            "entity": "tokens",
+            "scope": "registry",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "registries/webhooks": [
+        {
+            "category": "ContainerRegistry",
+            "entity": "webhooks",
+            "scope": "registry",
+            "maxlength": "50",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "managedClusters": [
+        {
+            "category": "ContainerService",
+            "entity": "managedClusters",
+            "scope": "resource group",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "aks-<custom.resourceGroupType>-<custom.productName>-<custom.environment>-<custom.azureRegion>",
+            "example": "aks-app-contosoweb-dev-eastus2"
+        }
+    ],
+    "openShiftManagedClusters": [
+        {
+            "category": "ContainerService",
+            "entity": "openShiftManagedClusters",
+            "scope": "resource group",
+            "maxlength": "30",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "hubs": [
+        {
+            "category": "CustomerInsights",
+            "entity": "hubs",
+            "scope": "resource group",
+            "maxlength": "64",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "hubs/authorizationPolicies": [
+        {
+            "category": "CustomerInsights",
+            "entity": "authorizationPolicies",
+            "scope": "hub",
+            "maxlength": "50",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "hubs/connectors": [
+        {
+            "category": "CustomerInsights",
+            "entity": "connectors",
+            "scope": "hub",
+            "maxlength": "128",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "hubs/connectors/mappings": [
+        {
+            "category": "CustomerInsights",
+            "entity": "mappings",
+            "scope": "connector",
+            "maxlength": "128",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "hubs/interactions": [
+        {
+            "category": "CustomerInsights",
+            "entity": "interactions",
+            "scope": "hub",
+            "maxlength": "128",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "hubs/kpi": [
+        {
+            "category": "CustomerInsights",
+            "entity": "kpi",
+            "scope": "hub",
+            "maxlength": "512",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "hubs/links": [
+        {
+            "category": "CustomerInsights",
+            "entity": "links",
+            "scope": "hub",
+            "maxlength": "512",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "hubs/predictions": [
+        {
+            "category": "CustomerInsights",
+            "entity": "predictions",
+            "scope": "hub",
+            "maxlength": "512",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "hubs/profiles": [
+        {
+            "category": "CustomerInsights",
+            "entity": "profiles",
+            "scope": "hub",
+            "maxlength": "128",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "hubs/relationshipLinks": [
+        {
+            "category": "CustomerInsights",
+            "entity": "relationshipLinks",
+            "scope": "hub",
+            "maxlength": "512",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "hubs/relationships": [
+        {
+            "category": "CustomerInsights",
+            "entity": "relationships",
+            "scope": "hub",
+            "maxlength": "512",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "hubs/roleAssignments": [
+        {
+            "category": "CustomerInsights",
+            "entity": "roleAssignments",
+            "scope": "hub",
+            "maxlength": "128",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "hubs/views": [
+        {
+            "category": "CustomerInsights",
+            "entity": "views",
+            "scope": "hub",
+            "maxlength": "512",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "associations": [
+        {
+            "category": "CustomProviders",
+            "entity": "associations",
+            "scope": "resource group",
+            "maxlength": "180",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "resourceProviders": [
+        {
+            "category": "CustomProviders",
+            "entity": "resourceProviders",
+            "scope": "resource group",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "jobs": [
+        {
+            "category": "DataBox",
+            "entity": "jobs",
+            "scope": "resource group",
+            "maxlength": "24",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "ImportExport",
+            "entity": "jobs",
+            "scope": "resource group",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "workspaces": [
+        {
+            "category": "Databricks",
+            "entity": "workspaces",
+            "scope": "resource group",
+            "maxlength": "30",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "MachineLearning",
+            "entity": "workspaces",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "MachineLearningServices",
+            "entity": "workspaces",
+            "scope": "resource group",
+            "maxlength": "33",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "OperationalInsights",
+            "entity": "workspaces",
+            "scope": "resource group",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "factories": [
+        {
+            "category": "DataFactory",
+            "entity": "factories",
+            "scope": "global",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "factories/dataflows": [
+        {
+            "category": "DataFactory",
+            "entity": "dataflows",
+            "scope": "factory",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "factories/datasets": [
+        {
+            "category": "DataFactory",
+            "entity": "datasets",
+            "scope": "factory",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "factories/integrationRuntimes": [
+        {
+            "category": "DataFactory",
+            "entity": "integrationRuntimes",
+            "scope": "factory",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "factories/linkedservices": [
+        {
+            "category": "DataFactory",
+            "entity": "linkedservices",
+            "scope": "factory",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "factories/pipelines": [
+        {
+            "category": "DataFactory",
+            "entity": "pipelines",
+            "scope": "factory",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "factories/triggers": [
+        {
+            "category": "DataFactory",
+            "entity": "triggers",
+            "scope": "factory",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "factories/triggers/rerunTriggers": [
+        {
+            "category": "DataFactory",
+            "entity": "rerunTriggers",
+            "scope": "trigger",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "accounts/computePolicies": [
+        {
+            "category": "DataLakeAnalytics",
+            "entity": "computePolicies",
+            "scope": "account",
+            "maxlength": "60",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "accounts/dataLakeStoreAccounts": [
+        {
+            "category": "DataLakeAnalytics",
+            "entity": "dataLakeStoreAccounts",
+            "scope": "account",
+            "maxlength": "24",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "accounts/firewallRules": [
+        {
+            "category": "DataLakeAnalytics",
+            "entity": "firewallRules",
+            "scope": "account",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "DataLakeStore",
+            "entity": "firewallRules",
+            "scope": "account",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "accounts/storageAccounts": [
+        {
+            "category": "DataLakeAnalytics",
+            "entity": "storageAccounts",
+            "scope": "account",
+            "maxlength": "60",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "accounts/virtualNetworkRules": [
+        {
+            "category": "DataLakeStore",
+            "entity": "virtualNetworkRules",
+            "scope": "account",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "services": [
+        {
+            "category": "DataMigration",
+            "entity": "services",
+            "scope": "resource group",
+            "maxlength": "62",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "services/projects": [
+        {
+            "category": "DataMigration",
+            "entity": "projects",
+            "scope": "service",
+            "maxlength": "57",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "servers/databases": [
+        {
+            "category": "DBforMariaDB",
+            "entity": "databases",
+            "scope": "servers",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "DBforMySQL",
+            "entity": "databases",
+            "scope": "servers",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "DBforPostgreSQL",
+            "entity": "databases",
+            "scope": "servers",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "Sql",
+            "entity": "databases",
+            "scope": "server",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "servers/firewallRules": [
+        {
+            "category": "DBforMariaDB",
+            "entity": "firewallRules",
+            "scope": "servers",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "DBforMySQL",
+            "entity": "firewallRules",
+            "scope": "servers",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "DBforPostgreSQL",
+            "entity": "firewallRules",
+            "scope": "servers",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "Sql",
+            "entity": "firewallRules",
+            "scope": "server",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "servers/virtualNetworkRules": [
+        {
+            "category": "DBforMariaDB",
+            "entity": "virtualNetworkRules",
+            "scope": "servers",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "DBforMySQL",
+            "entity": "virtualNetworkRules",
+            "scope": "servers",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "DBforPostgreSQL",
+            "entity": "virtualNetworkRules",
+            "scope": "servers",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "IotHubs": [
+        {
+            "category": "Devices",
+            "entity": "IotHubs",
+            "scope": "global",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "IotHubs/certificates": [
+        {
+            "category": "Devices",
+            "entity": "certificates",
+            "scope": "IoT hub",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "IotHubs/eventHubEndpoints/ConsumerGroups": [
+        {
+            "category": "Devices",
+            "entity": "ConsumerGroups",
+            "scope": "eventHubEndpoints",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "provisioningServices": [
+        {
+            "category": "Devices",
+            "entity": "provisioningServices",
+            "scope": "resource group",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "provisioningServices/certificates": [
+        {
+            "category": "Devices",
+            "entity": "certificates",
+            "scope": "provisioningServices",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "labs": [
+        {
+            "category": "DevTestLab",
+            "entity": "labs",
+            "scope": "resource group",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "labs/customimages": [
+        {
+            "category": "DevTestLab",
+            "entity": "customimages",
+            "scope": "lab",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "labs/formulas": [
+        {
+            "category": "DevTestLab",
+            "entity": "formulas",
+            "scope": "lab",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "labs/virtualmachines": [
+        {
+            "category": "DevTestLab",
+            "entity": "virtualmachines",
+            "scope": "lab",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "databaseAccounts": [
+        {
+            "category": "DocumentDB",
+            "entity": "databaseAccounts",
+            "scope": "global",
+            "maxlength": "31",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "domains": [
+        {
+            "category": "EventGrid",
+            "entity": "domains",
+            "scope": "resource group",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "domains/topics": [
+        {
+            "category": "EventGrid",
+            "entity": "topics",
+            "scope": "domain",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "eventSubscriptions": [
+        {
+            "category": "EventGrid",
+            "entity": "eventSubscriptions",
+            "scope": "resource group",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "topics": [
+        {
+            "category": "EventGrid",
+            "entity": "topics",
+            "scope": "resource group",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "clusters": [
+        {
+            "category": "EventHub",
+            "entity": "clusters",
+            "scope": "resource group",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "HDInsight",
+            "entity": "clusters",
+            "scope": "global",
+            "maxlength": "59",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "Kusto",
+            "entity": "clusters",
+            "scope": "global",
+            "maxlength": "22",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "OperationalInsights",
+            "entity": "clusters",
+            "scope": "resource group",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "ServiceFabric",
+            "entity": "clusters",
+            "scope": "region",
+            "maxlength": "23",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces": [
+        {
+            "category": "EventHub",
+            "entity": "namespaces",
+            "scope": "global",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "NotificationHubs",
+            "entity": "namespaces",
+            "scope": "global",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "Relay",
+            "entity": "namespaces",
+            "scope": "global",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "ServiceBus",
+            "entity": "namespaces",
+            "scope": "global",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/AuthorizationRules": [
+        {
+            "category": "EventHub",
+            "entity": "AuthorizationRules",
+            "scope": "namespace",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "NotificationHubs",
+            "entity": "AuthorizationRules",
+            "scope": "namespace",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "Relay",
+            "entity": "AuthorizationRules",
+            "scope": "namespace",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "ServiceBus",
+            "entity": "AuthorizationRules",
+            "scope": "namespace",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/disasterRecoveryConfigs": [
+        {
+            "category": "EventHub",
+            "entity": "disasterRecoveryConfigs",
+            "scope": "namespace",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        },
+        {
+            "category": "ServiceBus",
+            "entity": "disasterRecoveryConfigs",
+            "scope": "global",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/eventhubs": [
+        {
+            "category": "EventHub",
+            "entity": "eventhubs",
+            "scope": "namespace",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/eventhubs/authorizationRules": [
+        {
+            "category": "EventHub",
+            "entity": "authorizationRules",
+            "scope": "event hub",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/eventhubs/consumergroups": [
+        {
+            "category": "EventHub",
+            "entity": "consumergroups",
+            "scope": "event hub",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "actionGroups": [
+        {
+            "category": "Insights",
+            "entity": "actionGroups",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "components": [
+        {
+            "category": "Insights",
+            "entity": "components",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "IoTApps": [
+        {
+            "category": "IoTCentral",
+            "entity": "IoTApps",
+            "scope": "global",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "vaults": [
+        {
+            "category": "KeyVault",
+            "entity": "vaults",
+            "scope": "global",
+            "maxlength": "24",
+            "rule": "a-9",
+            "convention": "<custom.productGroup><custom.subscriptionType>",
+            "example": "contosoproduction"
+        },
+        {
+            "category": "RecoveryServices",
+            "entity": "vaults",
+            "scope": "resource group",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "vaults/secrets": [
+        {
+            "category": "KeyVault",
+            "entity": "secrets",
+            "scope": "Vault",
+            "maxlength": "127",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "/clusters/databases": [
+        {
+            "category": "Kusto",
+            "entity": "databases",
+            "scope": "cluster",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "/clusters/databases/dataConnections": [
+        {
+            "category": "Kusto",
+            "entity": "dataConnections",
+            "scope": "database",
+            "maxlength": "40",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "/clusters/databases/eventhubconnections": [
+        {
+            "category": "Kusto",
+            "entity": "eventhubconnections",
+            "scope": "database",
+            "maxlength": "40",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "integrationAccounts": [
+        {
+            "category": "Logic",
+            "entity": "integrationAccounts",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "integrationAccounts/assemblies": [
+        {
+            "category": "Logic",
+            "entity": "assemblies",
+            "scope": "integration account",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "integrationAccounts/batchConfigurations": [
+        {
+            "category": "Logic",
+            "entity": "batchConfigurations",
+            "scope": "integration account",
+            "maxlength": "20",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "integrationAccounts/certificates": [
+        {
+            "category": "Logic",
+            "entity": "certificates",
+            "scope": "integration account",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "integrationAccounts/maps": [
+        {
+            "category": "Logic",
+            "entity": "maps",
+            "scope": "integration account",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "integrationAccounts/partners": [
+        {
+            "category": "Logic",
+            "entity": "partners",
+            "scope": "integration account",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "integrationAccounts/rosettanetprocessconfigurations": [
+        {
+            "category": "Logic",
+            "entity": "rosettanetprocessconfigurations",
+            "scope": "integration account",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "integrationAccounts/schemas": [
+        {
+            "category": "Logic",
+            "entity": "schemas",
+            "scope": "integration account",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "integrationAccounts/sessions": [
+        {
+            "category": "Logic",
+            "entity": "sessions",
+            "scope": "integration account",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "integrationServiceEnvironments": [
+        {
+            "category": "Logic",
+            "entity": "integrationServiceEnvironments",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "integrationServiceEnvironments/managedApis": [
+        {
+            "category": "Logic",
+            "entity": "managedApis",
+            "scope": "integration service environment",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "workflows": [
+        {
+            "category": "Logic",
+            "entity": "workflows",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "commitmentPlans": [
+        {
+            "category": "MachineLearning",
+            "entity": "commitmentPlans",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "webServices": [
+        {
+            "category": "MachineLearning",
+            "entity": "webServices",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "workspaces/computes": [
+        {
+            "category": "MachineLearningServices",
+            "entity": "computes",
+            "scope": "workspace",
+            "maxlength": "16",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "userAssignedIdentities": [
+        {
+            "category": "ManagedIdentity",
+            "entity": "userAssignedIdentities",
+            "scope": "resource group",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "mediaservices": [
+        {
+            "category": "Media",
+            "entity": "mediaservices",
+            "scope": "resource group",
+            "maxlength": "24",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "mediaservices/liveEvents": [
+        {
+            "category": "Media",
+            "entity": "liveEvents",
+            "scope": "Media service",
+            "maxlength": "32",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "mediaservices/liveEvents/liveOutputs": [
+        {
+            "category": "Media",
+            "entity": "liveOutputs",
+            "scope": "Live event",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "mediaservices/streamingEndpoints": [
+        {
+            "category": "Media",
+            "entity": "streamingEndpoints",
+            "scope": "Media service",
+            "maxlength": "24",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "applicationGateways": [
+        {
+            "category": "Network",
+            "entity": "applicationGateways",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "<custom.productGroup>-<custom.subscriptionType>-<custom.azureRegion>-appgateway<##>",
+            "example": "contoso-production-useast2-appgateway01"
+        }
+    ],
+    "applicationSecurityGroups": [
+        {
+            "category": "Network",
+            "entity": "applicationSecurityGroups",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "<custom.serviceName>-app-security-group<##>",
+            "example": "apache-app-security-group01"
+        }
+    ],
+    "azureFirewalls": [
+        {
+            "category": "Network",
+            "entity": "azureFirewalls",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "<custom.productGroup>-<custom.subscriptionType>-<custom.azureRegion>-firewall<##>",
+            "example": "contoso-production-useast2-firewall01"
+        }
+    ],
+    "bastionHosts": [
+        {
+            "category": "Network",
+            "entity": "bastionHosts",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "<custom.productGroup>-<custom.subscriptionType>-bastion<##>",
+            "example": "contoso-production-useast2-bastion01"
+        }
+    ],
+    "connections": [
+        {
+            "category": "Network",
+            "entity": "connections",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "<custom.productGroup>-<custom.subscriptionType>-to-<custom.onPrem>-connection",
+            "example": "contoso-production-to-nyc-connection"
+        }
+    ],
+    "dnsZones": [
+        {
+            "category": "Network",
+            "entity": "dnsZones",
+            "scope": "resource group",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "<custom.serviceName>.<custom.productName>.<custom.productGroup>.<custom.subscriptionType>.<custom.market>.<root domain>",
+            "example": "es01.contosoapi.contoso.prod.us.<root domain>"
+        }
+    ],
+    "expressRouteCircuits": [
+        {
+            "category": "Network",
+            "entity": "expressRouteCircuits",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "<custom.productGroup>-<custom.subscriptionType>-expressroute-circuit<##>",
+            "example": "contoso-production-useast2-expressroute-circuit01"
+        }
+    ],
+    "firewallPolicies": [
+        {
+            "category": "Network",
+            "entity": "firewallPolicies",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "<custom.productGroup>-<custom.subscriptionType>-<custom.azureRegion>-waf-policy<##>",
+            "example": "contoso-production-useast2-waf-policy01"
+        }
+    ],
+    "firewallPolicies/ruleGroups": [
+        {
+            "category": "Network",
+            "entity": "ruleGroups",
+            "scope": "firewall policy",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "<rule_group_purpose[64]>-rule-group",
+            "example": "permitwebservers-rule-group"
+        }
+    ],
+    "frontDoors": [
+        {
+            "category": "Network",
+            "entity": "frontDoors",
+            "scope": "global",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "frontdoorWebApplicationFirewallPolicies": [
+        {
+            "category": "Network",
+            "entity": "frontdoorWebApplicationFirewallPolicies",
+            "scope": "resource group",
+            "maxlength": "128",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "loadBalancers": [
+        {
+            "category": "Network",
+            "entity": "loadBalancers",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "<custom.serviceName>-<custom.environment>-loadbalancer<##>",
+            "example": "apache-prod-loadbalancer01"
+        }
+    ],
+    "loadBalancers/inboundNatRules": [
+        {
+            "category": "Network",
+            "entity": "inboundNatRules",
+            "scope": "load balancer",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "localNetworkGateways": [
+        {
+            "category": "Network",
+            "entity": "localNetworkGateways",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "<custom.onPrem>-<custom.productGroup>-<custom.subscriptionType>-local-network-gateway",
+            "example": "nyc-contoso-nonprod-local-network-gateway"
+        }
+    ],
+    "networkInterfaces": [
+        {
+            "category": "Network",
+            "entity": "networkInterfaces",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "<custom.productName>-<custom.serviceName>-<custom.applicationName>-<custom.environment>##-<custom.subnetType>-interface##",
+            "example": "contosoweb-mono-docker-prod01-iaas-public-interface01"
+        }
+    ],
+    "networkSecurityGroups": [
+        {
+            "category": "Network",
+            "entity": "networkSecurityGroups",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "<custom.resourceGroupType>-<custom.productName>-<custom.subnetType>-security-group",
+            "example": "app-contoso-private-security-group"
+        }
+    ],
+    "networkSecurityGroups/securityRules": [
+        {
+            "category": "Network",
+            "entity": "securityRules",
+            "scope": "network security group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "networkWatchers": [
+        {
+            "category": "Network",
+            "entity": "networkWatchers",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "privateDnsZones": [
+        {
+            "category": "Network",
+            "entity": "privateDnsZones",
+            "scope": "resource group",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "privateDnsZones/virtualNetworkLinks": [
+        {
+            "category": "Network",
+            "entity": "virtualNetworkLinks",
+            "scope": "private DNS zone",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "publicIPAddresses": [
+        {
+            "category": "Network",
+            "entity": "publicIPAddresses",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "<custom.serviceName>-<custom.environment>-publicip<##>",
+            "example": "apache-prod-publicip01"
+        }
+    ],
+    "publicIPPrefixes": [
+        {
+            "category": "Network",
+            "entity": "publicIPPrefixes",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "routeFilters": [
+        {
+            "category": "Network",
+            "entity": "routeFilters",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "routeFilters/routeFilterRules": [
+        {
+            "category": "Network",
+            "entity": "routeFilterRules",
+            "scope": "route filter",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "routeTables": [
+        {
+            "category": "Network",
+            "entity": "routeTables",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "routeTables/routes": [
+        {
+            "category": "Network",
+            "entity": "routes",
+            "scope": "route table",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "serviceEndpointPolicies": [
+        {
+            "category": "Network",
+            "entity": "serviceEndpointPolicies",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "trafficmanagerprofiles": [
+        {
+            "category": "Network",
+            "entity": "trafficmanagerprofiles",
+            "scope": "global",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "virtualNetworkGateways": [
+        {
+            "category": "Network",
+            "entity": "virtualNetworkGateways",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "virtualNetworks": [
+        {
+            "category": "Network",
+            "entity": "virtualNetworks",
+            "scope": "resource group",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "<custom.resourceGroupType>-<custom.productName>-<custom.subscriptionType>-<custom.azureRegion>-vnet",
+            "example": "app-contoso-nonprod-useast2-vnet"
+        }
+    ],
+    "virtualnetworks/subnets": [
+        {
+            "category": "Network",
+            "entity": "subnets",
+            "scope": "virtual network",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "<custom.subnetType>-subnet<##>",
+            "example": "private-subnet01"
+        }
+    ],
+    "virtualNetworks/virtualNetworkPeerings": [
+        {
+            "category": "Network",
+            "entity": "virtualNetworkPeerings",
+            "scope": "virtual network",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "virtualWans": [
+        {
+            "category": "Network",
+            "entity": "virtualWans",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "vpnGateways": [
+        {
+            "category": "Network",
+            "entity": "vpnGateways",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "<custom.productGroup>-<custom.subscriptionType>-<custom.virtualNetGwType>",
+            "example": "contoso-nonprod-expressroute"
+        }
+    ],
+    "vpnGateways/vpnConnections": [
+        {
+            "category": "Network",
+            "entity": "vpnConnections",
+            "scope": "VPN gateway",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "vpnSites": [
+        {
+            "category": "Network",
+            "entity": "vpnSites",
+            "scope": "resource group",
+            "maxlength": "80",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/notificationHubs": [
+        {
+            "category": "NotificationHubs",
+            "entity": "notificationHubs",
+            "scope": "namespace",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/notificationHubs/AuthorizationRules": [
+        {
+            "category": "NotificationHubs",
+            "entity": "AuthorizationRules",
+            "scope": "notification hub",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "solutions": [
+        {
+            "category": "OperationsManagement",
+            "entity": "solutions",
+            "scope": "workspace",
+            "maxlength": "N/A",
+            "rule": "for solutions authored by microsoft, the name must be in the pattern:<br>`solutiontype(workspacename)`<br><br>for solutions authored by third parties, the name must be in the pattern:<br>`solutiontype[workspacename]`<br><br>for example, a valid name is:<br>`antimalware(contoso-it)`<br><br>the solution type is case-sensitive.",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "dashboards": [
+        {
+            "category": "Portal",
+            "entity": "dashboards",
+            "scope": "resource group",
+            "maxlength": "160",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "workspaceCollections": [
+        {
+            "category": "PowerBI",
+            "entity": "workspaceCollections",
+            "scope": "region",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "capacities": [
+        {
+            "category": "PowerBIDedicated",
+            "entity": "capacities",
+            "scope": "region",
+            "maxlength": "63",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "vaults/backupPolicies": [
+        {
+            "category": "RecoveryServices",
+            "entity": "backupPolicies",
+            "scope": "vault",
+            "maxlength": "150",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/HybridConnections": [
+        {
+            "category": "Relay",
+            "entity": "HybridConnections",
+            "scope": "namespace",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/HybridConnections/authorizationRules": [
+        {
+            "category": "Relay",
+            "entity": "authorizationRules",
+            "scope": "hybrid connection",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/WcfRelays": [
+        {
+            "category": "Relay",
+            "entity": "WcfRelays",
+            "scope": "namespace",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/WcfRelays/authorizationRules": [
+        {
+            "category": "Relay",
+            "entity": "authorizationRules",
+            "scope": "Wcf relay",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "deployments": [
+        {
+            "category": "Resources",
+            "entity": "deployments",
+            "scope": "resource group",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "<custom.productGroup>-<custom.subscriptionType>-<custom.azureRegion>-deployment<###>",
+            "example": "contoso-nonprod-useast2-deployment001"
+        }
+    ],
+    "resourcegroups": [
+        {
+            "category": "Resources",
+            "entity": "resourcegroups",
+            "scope": "subscription",
+            "maxlength": "90",
+            "rule": "a-9",
+            "convention": "<custom.resourceGroupType>-<custom.productName>-<custom.environment>-<custom.azureRegion>",
+            "example": "app-contosoweb-dev-useast2"
+        }
+    ],
+    "tagNames": [
+        {
+            "category": "Resources",
+            "entity": "tagNames",
+            "scope": "resource",
+            "maxlength": "512",
+            "rule": "a-9",
+            "convention": "<custom.tagName>",
+            "example": "environment"
+        }
+    ],
+    "tagNames/tagValues": [
+        {
+            "category": "Resources",
+            "entity": "tagValues",
+            "scope": "tag name",
+            "maxlength": "256",
+            "rule": "a-9",
+            "convention": "<custom.* value>",
+            "example": "production"
+        }
+    ],
+    "templateSpecs": [
+        {
+            "category": "Resources",
+            "entity": "templateSpecs",
+            "scope": "resource group",
+            "maxlength": "90",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/migrationConfigurations": [
+        {
+            "category": "ServiceBus",
+            "entity": "migrationConfigurations",
+            "scope": "namespace",
+            "maxlength": "63",
+            "rule": "default",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/queues": [
+        {
+            "category": "ServiceBus",
+            "entity": "queues",
+            "scope": "namespace",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/queues/authorizationRules": [
+        {
+            "category": "ServiceBus",
+            "entity": "authorizationRules",
+            "scope": "queue",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/topics": [
+        {
+            "category": "ServiceBus",
+            "entity": "topics",
+            "scope": "namespace",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/topics/authorizationRules": [
+        {
+            "category": "ServiceBus",
+            "entity": "authorizationRules",
+            "scope": "topic",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/topics/subscriptions": [
+        {
+            "category": "ServiceBus",
+            "entity": "subscriptions",
+            "scope": "topic",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "namespaces/topics/subscriptions/rules": [
+        {
+            "category": "ServiceBus",
+            "entity": "rules",
+            "scope": "subscription",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "signalR": [
+        {
+            "category": "SignalRService",
+            "entity": "signalR",
+            "scope": "global",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "managedInstances": [
+        {
+            "category": "Sql",
+            "entity": "managedInstances",
+            "scope": "global",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "servers/administrators": [
+        {
+            "category": "Sql",
+            "entity": "administrators",
+            "scope": "server",
+            "maxlength": "63",
+            "rule": "must be `activedirectory`.",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "servers/databases/syncGroups": [
+        {
+            "category": "Sql",
+            "entity": "syncGroups",
+            "scope": "database",
+            "maxlength": "150",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "servers/elasticPools": [
+        {
+            "category": "Sql",
+            "entity": "elasticPools",
+            "scope": "server",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "servers/failoverGroups": [
+        {
+            "category": "Sql",
+            "entity": "failoverGroups",
+            "scope": "global",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "storageAccounts": [
+        {
+            "category": "Storage",
+            "entity": "storageAccounts",
+            "scope": "global",
+            "maxlength": "24",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "storageAccounts/blobServices": [
+        {
+            "category": "Storage",
+            "entity": "blobServices",
+            "scope": "storage account",
+            "maxlength": "63",
+            "rule": "default",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "storageAccounts/blobServices/containers": [
+        {
+            "category": "Storage",
+            "entity": "containers",
+            "scope": "storage account",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "storageAccounts/fileServices": [
+        {
+            "category": "Storage",
+            "entity": "fileServices",
+            "scope": "storage account",
+            "maxlength": "63",
+            "rule": "default",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "storageAccounts/fileServices/shares": [
+        {
+            "category": "Storage",
+            "entity": "shares",
+            "scope": "storage account",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "storageAccounts/managementPolicies": [
+        {
+            "category": "Storage",
+            "entity": "managementPolicies",
+            "scope": "storage account",
+            "maxlength": "63",
+            "rule": "default",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "blob": [
+        {
+            "category": "Storage",
+            "entity": "blob",
+            "scope": "container",
+            "maxlength": "1024",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "queue": [
+        {
+            "category": "Storage",
+            "entity": "queue",
+            "scope": "storage account",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "table": [
+        {
+            "category": "Storage",
+            "entity": "table",
+            "scope": "storage account",
+            "maxlength": "63",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "storageSyncServices": [
+        {
+            "category": "StorageSync",
+            "entity": "storageSyncServices",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "storageSyncServices/syncGroups": [
+        {
+            "category": "StorageSync",
+            "entity": "syncGroups",
+            "scope": "storage sync service",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "managers": [
+        {
+            "category": "StorSimple",
+            "entity": "managers",
+            "scope": "resource group",
+            "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "streamingjobs": [
+        {
+            "category": "StreamAnalytics",
+            "entity": "streamingjobs",
+            "scope": "resource group",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "streamingjobs/functions": [
+        {
+            "category": "StreamAnalytics",
+            "entity": "functions",
+            "scope": "streaming job",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "streamingjobs/inputs": [
+        {
+            "category": "StreamAnalytics",
+            "entity": "inputs",
+            "scope": "streaming job",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "streamingjobs/outputs": [
+        {
+            "category": "StreamAnalytics",
+            "entity": "outputs",
+            "scope": "streaming job",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "streamingjobs/transformations": [
+        {
+            "category": "StreamAnalytics",
+            "entity": "transformations",
+            "scope": "streaming job",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "environments": [
+        {
+            "category": "TimeSeriesInsights",
+            "entity": "environments",
+            "scope": "resource group",
+            "maxlength": "90",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "environments/accessPolicies": [
+        {
+            "category": "TimeSeriesInsights",
+            "entity": "accessPolicies",
+            "scope": "environment",
+            "maxlength": "90",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "environments/eventSources": [
+        {
+            "category": "TimeSeriesInsights",
+            "entity": "eventSources",
+            "scope": "environment",
+            "maxlength": "90",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "environments/referenceDataSets": [
+        {
+            "category": "TimeSeriesInsights",
+            "entity": "referenceDataSets",
+            "scope": "environment",
+            "maxlength": "63",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "certificates": [
+        {
+            "category": "Web",
+            "entity": "certificates",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "can't use:<br>`/` <br><br>can't end with space or period.",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "serverfarms": [
+        {
+            "category": "Web",
+            "entity": "serverfarms",
+            "scope": "resource group",
+            "maxlength": "40",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "sites": [
+        {
+            "category": "Web",
+            "entity": "sites",
+            "scope": "global",
+            "maxlength": "60",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "sites/slots": [
+        {
+            "category": "Web",
+            "entity": "slots",
+            "scope": "site",
+            "maxlength": "59",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "policyassignments": [
+        {
+            "category": "Authorization",
+            "entity": "policyassignments",
+            "scope": "scope of assignment",
+            "maxlength": "255",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "policydefinitions": [
+        {
+            "category": "Authorization",
+            "entity": "policydefinitions",
+            "scope": "scope of definition",
+            "maxlength": "255",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ]
+}

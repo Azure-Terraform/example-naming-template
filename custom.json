@@ -1,0 +1,221 @@
+{
+   "market": {
+      "category": "Custom",
+      "entity": "market",
+      "scope": "global",
+      "maxlength": "2",
+      "rule": "az",
+      "allowed_values": {
+         "us": "United States",
+         "uk": "United Kingdom",
+         "in": "India",
+         "br": "Brazil",
+         "cn": "China"
+      }
+   },
+   "businessUnit": {
+      "category": "Custom",
+      "entity": "businessUnit",
+      "scope": "global",
+      "maxlength": "12",
+      "rule": "az",
+      "allowed_values": {
+         "backoffice": "Back Office",
+         "commercial": "Commercial",
+         "government": "Government",
+         "hr": "Human Resources",
+         "infra": "Infrastructure",
+         "security": "Security"
+      }
+   },
+   "environment": {
+      "category": "Custom",
+      "entity": "environment",
+      "scope": "global",
+      "maxlength": "7",
+      "rule": "az",
+      "allowed_values": {
+         "sandbox": "Sandbox",
+         "dev": "Development",
+         "qa": "Quality Assurance",
+         "uat": "User Acceptance Testing",
+         "prod": "Production"
+      }
+   },
+   "onPrem": {
+      "category": "Custom",
+      "entity": "onPrem",
+      "scope": "global",
+      "maxlength": "16",
+      "rule": "az",
+      "allowed_values": {
+         "denver": "Denver, CO",
+         "nyc": "New York, NY",
+         "seattle": "Seattle, WA"
+      }
+   },
+   "azureRegion": {
+      "category": "Custom",
+      "entity": "azureRegion",
+      "scope": "global",
+      "maxlength": "20",
+      "rule": "az",
+      "allowed_values": {
+         "eastasia": "East Asia",
+         "southeastasia": "Southeast Asia",
+         "centralus": "Central US",
+         "eastus": "East US",
+         "eastus2": "East US 2",
+         "westus": "West US",
+         "northcentralus": "North Central US",
+         "southcentralus": "South Central US",
+         "northeurope": "North Europe",
+         "westeurope": "West Europe",
+         "japanwest": "Japan West",
+         "japaneast": "Japan East",
+         "brazilsouth": "Brazil South",
+         "australiaeast": "Australia East",
+         "australiasoutheast": "Australia Southeast",
+         "southindia": "South India",
+         "centralindia": "Central India",
+         "westindia": "West India",
+         "canadacentral": "Canada Central",
+         "canadaeast": "Canada East",
+         "uksouth": "UK South",
+         "ukwest": "UK West",
+         "westcentralus": "West Central US",
+         "westus2": "West US 2",
+         "koreacentral": "Korea Central",
+         "koreasouth": "Korea South",
+         "francecentral": "France Central",
+         "francesouth": "France South",
+         "australiacentral": "Australia Central",
+         "australiacentral2": "Australia Central 2",
+         "uaecentral": "UAE Central",
+         "uaenorth": "UAE North",
+         "southafricanorth": "South Africa North",
+         "southafricawest": "South Africa West",
+         "switzerlandnorth": "Switzerland North",
+         "switzerlandwest": "Switzerland West",
+         "germanynorth": "Germany North",
+         "germanywestcentral": "Germany West Central",
+         "norwaywest": "Norway West",
+         "norwayeast": "Norway East",
+         "brazilsoutheast": "Brazil Southeast",
+         "usgovvirginia": "US Government Virginia",
+         "usgoviowa": "US Government Iowa",
+         "usdodeast": "US DoD East",
+         "usdodcentral": "US DoD Central",
+         "usgovtexas": "US Government Texas",
+         "usgovarizona": "US Government Arizona"
+      }
+   },
+   "subscriptionType": {
+      "category": "Custom",
+      "entity": "subscriptionType",
+      "scope": "global",
+      "maxlength": "12",
+      "rule": "az",
+      "allowed_values": {
+         "dev": "Development",
+         "nonprod": "Non-Production",
+         "production": "Production"
+      }
+   },
+   "resourceGroupType": {
+      "category": "Custom",
+      "entity": "resourceGroupType",
+      "scope": "global",
+      "maxlength": "12",
+      "rule": "az",
+      "allowed_values": {
+         "shared": "Shared Services",
+         "app": "Application"
+      }
+   },
+   "subnetType": {
+      "category": "Custom",
+      "entity": "subnetType",
+      "scope": "global",
+      "maxlength": "24",
+      "rule": "A-Z",
+      "allowed_values": {
+         "azure-appgateway": "Application Gateway",
+         "azure-vpngateway": "VPN Gateway",
+         "azure-firewall": "Azure Firewall",
+         "azure-rediscache": "Redis Cache",
+         "azure-sqldatabase": "Azure SQL Database",
+         "azure-containers": "Azure Container Instance",
+         "azure-apimanagement": "API Management",
+         "azure-appservice": "App Service Environment",
+         "azure-logicapps": "Azure Logic Apps",
+         "azure-dedicatedhsm": "Azure Dedicated HSM",
+         "azure-netappfiles": "Azure Netapp Files",
+         "iaas-public": "IaaS Public",
+         "iaas-outbound": "IaaS Outbound",
+         "iaas-private": "IaaS Private",
+         "AzureBastionSubnet": "Azure Bastion Service"
+      }
+   },
+   "virtualNetGwType": {
+      "category": "Custom",
+      "entity": "virtualNetworkGatewayType",
+      "scope": "global",
+      "maxlength": "12",
+      "rule": "az",
+      "allowed_values": {
+         "expressroute": "Express Route Connection",
+         "vpn": "Virtual Private Network"
+      }
+   },
+   "productGroup": {
+      "category": "Custom",
+      "entity": "productGroup",
+      "scope": "global",
+      "maxlength": "12",
+      "rule": "az",
+      "allowed_values": {
+         "contoso": "Contoso",
+         "infosec": "Information Security",
+         "networks": "Core Networking"
+      }
+   },
+   "applicationName": {
+      "category": "Custom",
+      "entity": "applicationName",
+      "scope": "global",
+      "maxlength": "12",
+      "rule": "az",
+      "allowed_values": {
+         "contoso": "Contoso",
+         "k8s": "Kubernetes",
+         "ssh": "Secure Shell",
+         "docker": "Docker"
+      }
+   },
+   "serviceName": {
+      "category": "Custom",
+      "entity": "serviceName",
+      "scope": "global",
+      "maxlength": "12",
+      "rule": "az",
+      "allowed_values": {
+         "apache": "Apache Webserver",
+         "cassandra": "Cassandra",
+         "es": "Elasticsearch",
+         "mono": "Monolith",
+         "oracle": "Oracle"
+      }
+   },
+   "productName": {
+      "category": "Custom",
+      "entity": "productName",
+      "scope": "global",
+      "maxlength": "16",
+      "rule": "az",
+      "allowed_values": {
+         "contosoweb": "Contoso Web",
+         "contosoapi": "Contoso API"
+      }
+   }
+}
