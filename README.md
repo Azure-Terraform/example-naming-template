@@ -6,11 +6,13 @@ Custom Naming Conventions for Azure
 
 
 It is used in example code within the Azure-Terraform module codebase.   
-* This repository can be used as a template to create a private repository which would contain proprietary data within the custom.json file reflective of the organization in which it was to be used. 
+* This repository can be used as a template to create a private repository which would contain proprietary data within 
+the custom.json file reflective of the organization in which it was to be used. 
 # Overview
 
 
-This repository contains a list of variables and standards for naming resources in Microsoft Azure.  It serves these primary purposes:  
+This repository contains a list of variables and standards for naming resources in Microsoft Azure.  It serves these 
+primary purposes:  
 * A central location for development teams to research and collaborate on allowed values and naming conventions.  
 * A single source of truth for data values used in policy enforcement, billing, and naming.  
 * A RESTful data source for application requiring information on approved values, variables and names.
@@ -18,18 +20,28 @@ This repository contains a list of variables and standards for naming resources 
 
 
 This repository has four primary areas and their methods of use are described by the following:  
-* **README.md** - The readme is the human readable documentation on the naming conventions, approved values, and variable names that developers will reference when creating inputs for modules and code.  
-* **custom.json** - Data in json format to be RESTful sourced by applications. Contains a list of custom variable names, conventions, scope and approved values.  The readme is generated automatically from this data.  
-* **entity.json** - Data in json format to be sourced by applications. Contains an up-to-date list of Azure resources, conventions, scope and approved naming conventions.  The readme is generated automatically from this data.  
-* **bin/run.py** - A python script that scrapes the latest data from Microsoft merges with the existing json and adds new resources.  It also generates this README doc from the custom and entity json.
+* **README.md** - The readme is the human readable documentation on the naming conventions, approved values, and 
+variable names that developers will reference when creating inputs for modules and code.  
+* **custom.json** - Data in json format to be RESTful sourced by applications. Contains a list of custom variable names,
+ conventions, scope and approved values.  The readme is generated automatically from this data.  
+* **entity.json** - Data in json format to be sourced by applications. Contains an up-to-date list of Azure resources, 
+conventions, scope and approved naming conventions.  The readme is generated automatically from this data.  
+* **bin/run.py** - A python script that scrapes the latest data from Microsoft merges with the existing json and adds 
+new resources.  It also generates this README doc from the custom and entity json.
 ## How to Update
 
 
-This information is meant to be a living source of truth for applications and policy and as such is expected to be versioned and updated.  If you wish to add allowed values for any of the variables or need a naming convention that is not provided in this data, open an issue request agains this repo. Upon review the information will be updated and the policy engines will reflect the changes immediately.
+This information is meant to be a living source of truth for applications and policy and as such is expected to be 
+versioned and updated.  If you wish to add allowed values for any of the variables or need a naming convention that is 
+not provided in this data, open an issue request agains this repo. Upon review the information will be updated and the 
+policy engines will reflect the changes immediately.
 # Custom Entities
 
 
-Custom entities are variables and allowed values that describe our business and purpose at the company and are the only approved values to be used in names and tags. This assures consistency and data integrity across all resources being named and tagged in Azure.  If you would like to add additional allowed values, simply open an issue request against this repo and upon review the value will be added. 
+Custom entities are variables and allowed values that describe our business and purpose at the company and are the only 
+approved values to be used in names and tags. This assures consistency and data integrity across all resources being 
+named and tagged in Azure.  If you would like to add additional allowed values, simply open an issue request against 
+this repo and upon review the value will be added. 
 ## custom.applicationName
 
 |<sub>Full Text</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Value</sub>|
@@ -84,12 +96,12 @@ Custom entities are variables and allowed values that describe our business and 
 |<sub>Norway West</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>norwaywest</sub>|
 |<sub>Norway East</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>norwayeast</sub>|
 |<sub>Brazil Southeast</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>brazilsoutheast</sub>|
-|<sub>US Government Virginia</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>usgovvirginia</sub>|
-|<sub>US Government Iowa</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>usgoviowa</sub>|
+|<sub>US Gov Virginia</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>usgovvirginia</sub>|
+|<sub>US Gov Iowa</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>usgoviowa</sub>|
 |<sub>US DoD East</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>usdodeast</sub>|
 |<sub>US DoD Central</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>usdodcentral</sub>|
-|<sub>US Government Texas</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>usgovtexas</sub>|
-|<sub>US Government Arizona</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>usgovarizona</sub>|
+|<sub>US Gov Texas</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>usgovtexas</sub>|
+|<sub>US Gov Arizona</sub>|<sub>global</sub>|<sub>az[20]</sub>|<sub>usgovarizona</sub>|
 
 ## custom.businessUnit
 
@@ -200,7 +212,10 @@ Custom entities are variables and allowed values that describe our business and 
 # Azure Entities
 
 
-Azure entities are entities as maintained by Microsoft Azure and should contain all possible resources that can be built along with Microsoft's rules for record length, scope, and allowed characters.  Naming convention is specific to the company and takes into account the scope, length, and purpose to assure the name retains readability and conveys the most pertinent information about the resource to the reader.  Examples are provided. 
+Azure entities are entities as maintained by Microsoft Azure and should contain all possible resources that can be built
+ along with Microsoft's rules for record length, scope, and allowed characters.  Naming convention is specific to the 
+company and takes into account the scope, length, and purpose to assure the name retains readability and conveys the 
+most pertinent information about the resource to the reader.  Examples are provided. 
 ## azure.AnalysisServices
 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
@@ -326,11 +341,18 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 | ------ | ------ | ------ | ------ | ------ |
 |<sub>accounts</sub>|<sub>resource group</sub>|<sub>a-9[64]</sub>|<sub></sub>|<sub></sub>|
 
+## azure.Communication
+
+|<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
+| ------ | ------ | ------ | ------ | ------ |
+|<sub>communicationServices</sub>|<sub>global</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
+
 ## azure.Compute
 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
 |<sub>availabilitySets</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
+|<sub>cloudservices</sub>|<sub>resource group</sub>|<sub>a-9[15 <br><br>See note below.]</sub>|<sub></sub>|<sub></sub>|
 |<sub>diskEncryptionSets</sub>|<sub>resource group</sub>|<sub>a9[80]</sub>|<sub></sub>|<sub></sub>|
 |<sub>disks</sub>|<sub>resource group</sub>|<sub>a9[80]</sub>|<sub></sub>|<sub></sub>|
 |<sub>galleries</sub>|<sub>resource group</sub>|<sub>a9[80]</sub>|<sub></sub>|<sub></sub>|
@@ -342,6 +364,12 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 |<sub>snapshots</sub>|<sub>resource group</sub>|<sub>a-9[80]</sub>|<sub></sub>|<sub></sub>|
 |<sub>virtualMachineScaleSets</sub>|<sub>resource group</sub>|<sub>a-9[64]</sub>|<sub></sub>|<sub></sub>|
 |<sub>virtualMachines</sub>|<sub>resource group</sub>|<sub>a-9[64]</sub>|<sub><[custom.productName[16]](README.md#customproductName)>-<[custom.serviceName[12]](README.md#customserviceName)>-<[custom.applicationName[12]](README.md#customapplicationName)>##</sub>|<sub>contosoweb-mono-docker01</sub>|
+
+## azure.Consumption
+
+|<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
+| ------ | ------ | ------ | ------ | ------ |
+|<sub>budgets</sub>|<sub>subscription or resource group</sub>|<sub>a-9[63]</sub>|<sub></sub>|<sub></sub>|
 
 ## azure.ContainerInstance
 
@@ -534,7 +562,10 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 |<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
 | ------ | ------ | ------ | ------ | ------ |
 |<sub>actionGroups</sub>|<sub>resource group</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
+|<sub>activityLogAlerts</sub>|<sub>resource group</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
 |<sub>components</sub>|<sub>resource group</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
+|<sub>metricAlerts</sub>|<sub>resource group</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
+|<sub>scheduledQueryRules</sub>|<sub>resource group</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
 
 ## azure.IoTCentral
 
@@ -719,6 +750,29 @@ Azure entities are entities as maintained by Microsoft Azure and should contain 
 |<sub>tagNames</sub>|<sub>resource</sub>|<sub>a-9[512]</sub>|<sub><custom.tagName></sub>|<sub>environment</sub>|
 |<sub>tagValues</sub>|<sub>tag name</sub>|<sub>a-9[256]</sub>|<sub><custom.* value></sub>|<sub>production</sub>|
 |<sub>templateSpecs</sub>|<sub>resource group</sub>|<sub>a-9[90]</sub>|<sub></sub>|<sub></sub>|
+
+## azure.Security
+
+|<sub>Entity</sub>|<sub>Scope</sub>|<sub>Rule</sub>|<sub>Convention</sub>|<sub>Example</sub>|
+| ------ | ------ | ------ | ------ | ------ |
+|<sub>advancedThreatProtectionSettings</sub>|<sub>resource group</sub>|<sub>must be `current`[see value]</sub>|<sub></sub>|<sub></sub>|
+|<sub>alertsSuppressionRules</sub>|<sub>subscription</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
+|<sub>assessmentMetadata</sub>|<sub>assessment type</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
+|<sub>assessments</sub>|<sub>assessment type</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
+|<sub>autoProvisioningSettings</sub>|<sub>subscription</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
+|<sub>automations</sub>|<sub>resource group</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
+|<sub>connectors</sub>|<sub>subscription</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
+|<sub>deviceSecurityGroups</sub>|<sub>resource group</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
+|<sub>informationProtectionPolicies</sub>|<sub>resource group</sub>|<sub>use one of:<br>`custom`<br>`effective`[see values]</sub>|<sub></sub>|<sub></sub>|
+|<sub>ingestionSettings</sub>|<sub>subscription</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
+|<sub>iotSecuritySolutions</sub>|<sub>resource group</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
+|<sub>applicationWhitelistings</sub>|<sub>subscription</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
+|<sub>jitNetworkAccessPolicies</sub>|<sub>resource group</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
+|<sub>pricings</sub>|<sub>subscription</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
+|<sub>securityContacts</sub>|<sub>subscription</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
+|<sub>serverVulnerabilityAssessments</sub>|<sub>resource type</sub>|<sub>default[see value]</sub>|<sub></sub>|<sub></sub>|
+|<sub>settings</sub>|<sub>subscription</sub>|<sub>use one of:<br>`mcas`<br>`sentinel`<br>`wdatp`<br>`wdatp_exclude_linux_public_preview`[see values]</sub>|<sub></sub>|<sub></sub>|
+|<sub>baselineRules</sub>|<sub>Vulnerability assessment</sub>|<sub>a-9[260]</sub>|<sub></sub>|<sub></sub>|
 
 ## azure.ServiceBus
 

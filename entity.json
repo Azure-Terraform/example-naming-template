@@ -766,6 +766,17 @@
             "example": ""
         }
     ],
+    "cloudservices": [
+        {
+            "category": "Compute",
+            "entity": "cloudservices",
+            "scope": "resource group",
+            "maxlength": "15 <br><br>See note below.",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
     "diskEncryptionSets": [
         {
             "category": "Compute",
@@ -882,6 +893,28 @@
             "entity": "virtualMachineScaleSets",
             "scope": "resource group",
             "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "communicationServices": [
+        {
+            "category": "Communication",
+            "entity": "communicationServices",
+            "scope": "global",
+            "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "budgets": [
+        {
+            "category": "Consumption",
+            "entity": "budgets",
+            "scope": "subscription or resource group",
+            "maxlength": "63",
             "rule": "a-9",
             "convention": "",
             "example": ""
@@ -1862,6 +1895,39 @@
             "example": ""
         }
     ],
+    "scheduledQueryRules": [
+        {
+            "category": "Insights",
+            "entity": "scheduledQueryRules",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "metricAlerts": [
+        {
+            "category": "Insights",
+            "entity": "metricAlerts",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "activityLogAlerts": [
+        {
+            "category": "Insights",
+            "entity": "activityLogAlerts",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
     "IoTApps": [
         {
             "category": "IoTCentral",
@@ -2724,6 +2790,204 @@
             "entity": "templateSpecs",
             "scope": "resource group",
             "maxlength": "90",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "advancedThreatProtectionSettings": [
+        {
+            "category": "Security",
+            "entity": "advancedThreatProtectionSettings",
+            "scope": "resource group",
+            "maxlength": "see value",
+            "rule": "must be `current`",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "alertsSuppressionRules": [
+        {
+            "category": "Security",
+            "entity": "alertsSuppressionRules",
+            "scope": "subscription",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "assessmentMetadata": [
+        {
+            "category": "Security",
+            "entity": "assessmentMetadata",
+            "scope": "assessment type",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "assessments": [
+        {
+            "category": "Security",
+            "entity": "assessments",
+            "scope": "assessment type",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "automations": [
+        {
+            "category": "Security",
+            "entity": "automations",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "autoProvisioningSettings": [
+        {
+            "category": "Security",
+            "entity": "autoProvisioningSettings",
+            "scope": "subscription",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "connectors": [
+        {
+            "category": "Security",
+            "entity": "connectors",
+            "scope": "subscription",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "deviceSecurityGroups": [
+        {
+            "category": "Security",
+            "entity": "deviceSecurityGroups",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "informationProtectionPolicies": [
+        {
+            "category": "Security",
+            "entity": "informationProtectionPolicies",
+            "scope": "resource group",
+            "maxlength": "see values",
+            "rule": "use one of:<br>`custom`<br>`effective`",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "iotSecuritySolutions": [
+        {
+            "category": "Security",
+            "entity": "iotSecuritySolutions",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "locations/applicationWhitelistings": [
+        {
+            "category": "Security",
+            "entity": "applicationWhitelistings",
+            "scope": "subscription",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "locations/jitNetworkAccessPolicies": [
+        {
+            "category": "Security",
+            "entity": "jitNetworkAccessPolicies",
+            "scope": "resource group",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "ingestionSettings": [
+        {
+            "category": "Security",
+            "entity": "ingestionSettings",
+            "scope": "subscription",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "pricings": [
+        {
+            "category": "Security",
+            "entity": "pricings",
+            "scope": "subscription",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "securityContacts": [
+        {
+            "category": "Security",
+            "entity": "securityContacts",
+            "scope": "subscription",
+            "maxlength": "260",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "settings": [
+        {
+            "category": "Security",
+            "entity": "settings",
+            "scope": "subscription",
+            "maxlength": "see values",
+            "rule": "use one of:<br>`mcas`<br>`sentinel`<br>`wdatp`<br>`wdatp_exclude_linux_public_preview`",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "serverVulnerabilityAssessments": [
+        {
+            "category": "Security",
+            "entity": "serverVulnerabilityAssessments",
+            "scope": "resource type",
+            "maxlength": "see value",
+            "rule": "default",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "sqlVulnerabilityAssessments/baselineRules": [
+        {
+            "category": "Security",
+            "entity": "baselineRules",
+            "scope": "Vulnerability assessment",
+            "maxlength": "260",
             "rule": "a-9",
             "convention": "",
             "example": ""
