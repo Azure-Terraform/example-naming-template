@@ -102,12 +102,12 @@
          "norwaywest": "Norway West",
          "norwayeast": "Norway East",
          "brazilsoutheast": "Brazil Southeast",
-         "usgovvirginia": "US Government Virginia",
-         "usgoviowa": "US Government Iowa",
+         "usgovvirginia": "US Gov Virginia",
+         "usgoviowa": "US Gov Iowa",
          "usdodeast": "US DoD East",
          "usdodcentral": "US DoD Central",
-         "usgovtexas": "US Government Texas",
-         "usgovarizona": "US Government Arizona"
+         "usgovtexas": "US Gov Texas",
+         "usgovarizona": "US Gov Arizona"
       }
    },
    "subscriptionType": {
