@@ -142,7 +142,7 @@
       "allowed_values": {
          "azure-appgateway": "Application Gateway",
          "azure-vpngateway": "VPN Gateway",
-         "azure-firewall": "Azure Firewall",
+         "AzureFirewallSubnet": "Azure Firewall",
          "azure-rediscache": "Redis Cache",
          "azure-sqldatabase": "Azure SQL Database",
          "azure-containers": "Azure Container Instance",
