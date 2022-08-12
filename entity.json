@@ -409,12 +409,34 @@
             "example": ""
         }
     ],
+    "containerApps": [
+        {
+            "category": "App",
+            "entity": "containerApps",
+            "scope": "resource group",
+            "maxlength": "32",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
     "configurationStores": [
         {
             "category": "AppConfiguration",
             "entity": "configurationStores",
             "scope": "resource group",
             "maxlength": "50",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "spring": [
+        {
+            "category": "AppPlatform",
+            "entity": "spring",
+            "scope": "resource group",
+            "maxlength": "32",
             "rule": "a-9",
             "convention": "",
             "example": ""
@@ -460,6 +482,28 @@
             "scope": "scope of definition",
             "maxlength": "255",
             "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "roleAssignments": [
+        {
+            "category": "Authorization",
+            "entity": "roleAssignments",
+            "scope": "tenant",
+            "maxlength": "36",
+            "rule": "must be a globally unique identifier (guid).",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "roleDefinitions": [
+        {
+            "category": "Authorization",
+            "entity": "roleDefinitions",
+            "scope": "tenant",
+            "maxlength": "36",
+            "rule": "must be a globally unique identifier (guid).",
             "convention": "",
             "example": ""
         }
@@ -614,6 +658,28 @@
             "scope": "global",
             "maxlength": "20",
             "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "blueprint": [
+        {
+            "category": "Blueprint",
+            "entity": "blueprint",
+            "scope": "Management groups, Subscriptions, Resource groups",
+            "maxlength": "90",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "blueprintAssignments": [
+        {
+            "category": "Blueprint",
+            "entity": "blueprintAssignments",
+            "scope": "Management groups, Subscriptions, Resource groups",
+            "maxlength": "90",
+            "rule": "a-9",
             "convention": "",
             "example": ""
         }
@@ -904,6 +970,17 @@
             "entity": "communicationServices",
             "scope": "global",
             "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "ledgers": [
+        {
+            "category": "ConfidentialLedger",
+            "entity": "ledgers",
+            "scope": "Resource group",
+            "maxlength": "32",
             "rule": "a-9",
             "convention": "",
             "example": ""
@@ -2003,6 +2080,28 @@
             "example": ""
         }
     ],
+    "labplans": [
+        {
+            "category": "LabServices",
+            "entity": "labplans",
+            "scope": "resource group",
+            "maxlength": "100",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "loadtests": [
+        {
+            "category": "LoadTestService",
+            "entity": "loadtests",
+            "scope": "global",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
     "integrationAccounts": [
         {
             "category": "Logic",
@@ -2218,6 +2317,94 @@
             "entity": "streamingEndpoints",
             "scope": "Media service",
             "maxlength": "24",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "netAppAccounts": [
+        {
+            "category": "NetApp",
+            "entity": "netAppAccounts",
+            "scope": "resource group",
+            "maxlength": "128",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "netAppAccounts/backups": [
+        {
+            "category": "NetApp",
+            "entity": "backups",
+            "scope": "NetApp account",
+            "maxlength": "225",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "netAppAccounts/backupPolicies": [
+        {
+            "category": "NetApp",
+            "entity": "backupPolicies",
+            "scope": "NetApp account",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "netAppAccounts/capacityPools": [
+        {
+            "category": "NetApp",
+            "entity": "capacityPools",
+            "scope": "NetApp account",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "netAppAccounts/snapshots": [
+        {
+            "category": "NetApp",
+            "entity": "snapshots",
+            "scope": "NetApp account",
+            "maxlength": "255",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "netAppAccounts/snapshotPolicies": [
+        {
+            "category": "NetApp",
+            "entity": "snapshotPolicies",
+            "scope": "NetApp account",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "netAppAccounts/volumes": [
+        {
+            "category": "NetApp",
+            "entity": "volumes",
+            "scope": "NetApp account",
+            "maxlength": "64",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "netAppAccounts/volumeGroups": [
+        {
+            "category": "NetApp",
+            "entity": "volumeGroups",
+            "scope": "NetApp account",
+            "maxlength": "64",
             "rule": "a-9",
             "convention": "",
             "example": ""
@@ -3136,6 +3323,17 @@
             "example": ""
         }
     ],
+    "servers/keys": [
+        {
+            "category": "Sql",
+            "entity": "keys",
+            "scope": "server",
+            "maxlength": "63",
+            "rule": "must be in format:<br>`vaultname_keyname_keyversion`.",
+            "convention": "",
+            "example": ""
+        }
+    ],
     "storageAccounts": [
         {
             "category": "Storage",
@@ -3318,6 +3516,28 @@
             "entity": "transformations",
             "scope": "streaming job",
             "maxlength": "63",
+            "rule": "a-9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "workspaces/bigDataPools": [
+        {
+            "category": "Synapse",
+            "entity": "bigDataPools",
+            "scope": "workspace",
+            "maxlength": "15",
+            "rule": "a9",
+            "convention": "",
+            "example": ""
+        }
+    ],
+    "workspaces/sqlPools": [
+        {
+            "category": "Synapse",
+            "entity": "sqlPools",
+            "scope": "workspace",
+            "maxlength": "60",
             "rule": "a-9",
             "convention": "",
             "example": ""
