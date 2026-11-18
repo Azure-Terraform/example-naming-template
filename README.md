@@ -1,3 +1,4 @@
+> **Deprecated:** This repository is deprecated and is not recommended for new deployments.
 
 Custom Naming Conventions for Azure
 ===================================
